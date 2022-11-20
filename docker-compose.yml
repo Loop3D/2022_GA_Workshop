@@ -1,0 +1,8 @@
+version: "3"
+services:
+  loop:
+    image: lachlangrose/loop:latest
+    volumes:
+      - .:/home/jovyan/notebooks
+    ports:
+      - 8888:8888
